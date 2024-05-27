@@ -1,0 +1,21 @@
+#set page("presentation-16-9")
+
+#set text(size: 30pt)
+#set document(title: "Introduction to Programming with Raspberry Pi", author: "Mitch Spradlin")
+
+#heading(outlined: false)[Introduction to Programming]
+June 2024
+
+Mitchell Spradlin --- Amazon
+
+#pagebreak()
+
+= The Class
+- Mix of lectures and hands-on labs
+- Break halfway through class
+- Raise hand to ask questions nay time
+- Be respectful and inclusive
+- Explore!
+
+#pagebreak()
+
