@@ -56,7 +56,9 @@ To get your computer up and running:
 
 == Mu --- Python Editor
 
-TODO - Highlight Mu Icon
+#align(center + horizon)[
+#image("mu_brand.png", width: 20%)
+]
 
 #pagebreak()
 
@@ -75,15 +77,106 @@ TODO - Highlight Mu Icon
 - Observe the output at the bottom of the screen
 - Click "Stop" to return to editing your code
 
+#pagebreak()
+
 == How Python Executes your Code
 
-TODO
+```python
+print("Dog")
+print("Cat")
+# Comments start with "#"
+# print("Rabbit")
+print("Bird")
+```
+
+#pagebreak()
 
 == Variables
 
+Variables associate a *name* with a *value*.
+
+The name goes on the left, then `=`, then the value.
+
+```python
+name = "value"
+score = 30
+# The below throws an error
+10 = score
+```
+
+#pagebreak()
+
+== Reading Variables
+
+When a variable is used, its value at the time of execution is substituted for the variable name.
+
+```python
+print("Dog")
+animal = "Dog"
+print(animal)
+```
+
+#pagebreak()
+
+== Reassigning Variables
+
+```python
+animal = "Dog"
+print(animal)
+animal = "Cat"
+print(animal)
+```
+
+#pagebreak()
+
 == `while` Loop
 
+A *loop* instructs Python to execute a block of code over and over.
+
+A *while loop* has this structure:
+```python
+while statement_that_is_true_or_false:
+    code_to_execute
+    more_code_to_execute
+```
+
+#pagebreak()
+
+== `while` Loop
+
+```python
+raining = True
+while raining:
+    print("Frog")
+```
+
+#pagebreak()
+
+== `while` Loop
+
+```python
+number = 0
+number_is_small = True
+while number_is_small:
+    print(number)
+    number = number + 1
+    number_is_small = number < 10
+```
+
+#pagebreak()
+
+```python
+number = 0
+while number < 10:
+    print(number)
+    number = number + 1
+```
+
+#pagebreak()
+
 == Break
+
+#pagebreak()
 
 == Lab 1: Getting Started with the Sense HAT
 
