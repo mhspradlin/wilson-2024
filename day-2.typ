@@ -142,8 +142,34 @@ An *algorithm* is a sequence of steps for solving some problem.
 
 == Find smallest $n$ such that $n^2 > 1000$
 
-#text(size: 26pt)[
+An algorithm to solve this is as follows:
 
++ Start at zero (`current_number`)
++ Square `current_number`
++ If the square is greater than 1000, print the number and stop.
++ If the square is less than 1000, add one to `current_number` and go back to step 2.
+
+#pagebreak()
+
+== First Attempt
+
+What is the problem below?
+
+```python
+current_number = 0
+while True:
+  square = current_number * current_number
+  if square > 1000:
+    print(current_number)
+  else:
+    current_number = current_number + 1
+```
+
+#pagebreak()
+
+== Find smallest $n$ such that $n^2 > 1000$
+
+#text(size: 26pt)[
 ```python
 still_searching = True
 current_number = 0
