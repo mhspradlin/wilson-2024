@@ -140,14 +140,22 @@ An *algorithm* is a sequence of steps for solving some problem.
 
 #pagebreak()
 
-== Find smallest $n$ such that $n^2 > 1000$
+== First Algorithm
+
+Design an algorithm to find the smallest integer $n$ such that $n$ squared is greater than two million.
+
+
+
+#pagebreak()
+
+== Find smallest $n$ such that $n^2 > 2000000$
 
 An algorithm to solve this is as follows:
 
 + Start at zero (`current_number`)
 + Square `current_number`
-+ If the square is greater than 1000, print the number and stop.
-+ If the square is less than 1000, add one to `current_number` and go back to step 2.
++ If the square is greater than 2000000, print the number and stop.
++ If the square is less than 2000000, add one to `current_number` and go back to step 2.
 
 #pagebreak()
 
@@ -159,7 +167,7 @@ What is the problem below?
 current_number = 0
 while True:
   square = current_number * current_number
-  if square > 1000:
+  if square > 2000000:
     print(current_number)
   else:
     current_number = current_number + 1
@@ -167,7 +175,7 @@ while True:
 
 #pagebreak()
 
-== Find smallest $n$ such that $n^2 > 1000$
+== Find smallest $n$ such that $n^2 > 2000000$
 
 #text(size: 26pt)[
 ```python
@@ -175,7 +183,7 @@ still_searching = True
 current_number = 0
 while still_searching:
   square = current_number * current_number
-  if square > 1000:
+  if square > 2000000:
     print(current_number)
     print(square)
     still_searching = False
