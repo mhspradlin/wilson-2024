@@ -1,0 +1,13 @@
+#set page("presentation-16-9")
+
+#set text(size: 30pt)
+
+= Day 5
+
+#pagebreak()
+
+#pagebreak()
+
+== Lab: Compass Maze
+
+#link("https://tinyurl.com/wilson-pi-day-5")

@@ -199,3 +199,5 @@ while still_searching:
 #pagebreak()
 
 == Lab 2: Countdown Timer
+
+#link("https://tinyurl.com/wilson-pi-lab-2")

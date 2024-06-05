@@ -64,7 +64,7 @@ while still_searching:
 
 #text(size: 26pt)[
 ```python
-function find_smallest_square_bigger_than(target_number):
+def find_smallest_square_bigger_than(target_number):
   current_number = 0
   while True:
     square = current_number * current_number
@@ -75,7 +75,23 @@ function find_smallest_square_bigger_than(target_number):
 ```
 ]
 
-Note, we no longer need still_searching, as the loop ends when we *return*.
+We removed `still_searching` as the loop ends on *return*.
+
+#pagebreak()
+
+== Number-Finder Function
+
+Print the following values:
+
+```python
+find_smallest_square_bigger_than(1000)
+find_smallest_square_bigger_than(2000000)
+find_smallest_square_bigger_than(1000000000000)
+find_smallest_square_bigger_than(
+  1000000 * 1000000 * 1000000 * 1000000)
+```
+
+What happens on the last one?
 
 #pagebreak()
 
@@ -229,3 +245,4 @@ def get_smallest(input):
 
 == Lab 3: Where's the Treasure?
 
+#link("https://tinyurl.com/wilson-pi-day-3")

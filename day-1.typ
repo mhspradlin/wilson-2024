@@ -182,7 +182,5 @@ while number < 10:
 
 - Connect the Sense HAT
 - Go to here and try to complete the steps through "Displaying images"
-
-https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat
-
+  - #link("https://tinyurl.com/wilson-pi-hat")
 - If you finish early, feel free to continue past those exercises or write your own programs.

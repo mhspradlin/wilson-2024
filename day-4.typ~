@@ -1,0 +1,11 @@
+#set page("presentation-16-9")
+
+#set text(size: 30pt)
+
+= Day 4
+
+#pagebreak()
+
+== Lab 4: Tightrope
+
+https://projects.raspberrypi.org/en/projects/tightrope/0
