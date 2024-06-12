@@ -1,0 +1,23 @@
+Hello all,
+
+Thank you for participating in this year's Introduction to Programming with Raspberry Pi. It was fun teaching you!
+
+In case something breaks or you want to get additional equipment, here is the list of materials you took home with you:
+- Raspberry Pi 400: https://raspberrypi.com/products/raspberry-pi-400
+- Sense HAT: https://www.raspberrypi.com/products/sense-hat
+- Adafruit CYBERDECK: https://www.adafruit.com/product/4863
+
+Any screen that supports full-size HDMI input can be connected to your Raspberry Pi. In class we used a micro-HDMI to mini-HDMI adapter for the portable laptop screens: https://a.co/d/7Cljmxv
+
+The labs were from the Raspberry Pi Code Club: https://rpf.io/sense-hat
+
+You can find lots of projects using the Sense HAT here: https://projects.raspberrypi.org/en/projects?hardware[]=sense-hat
+
+In case you didn't get a chance to complete the survey, here is a link: https://tinyurl.com/wilson-pi-survey-2024
+
+Feel free to reach out to me at this email address with any questions in the future.
+
+Thanks again and happy coding!
+
+Best,
+Mitch Spradlin
