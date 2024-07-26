@@ -29,6 +29,8 @@
 
 #align(center + horizon)[Day Two]
 
+// day 5 add paths to superintelligence and kinds of superintelligence, goal choosing exercise?
+
 #pagebreak()
 
 = Recommenders
@@ -143,11 +145,139 @@ Most real-life systems use a combination of collaborative, content-based, and cu
 
 = Sentiment Analysis
 
-- What is sentiment analysis
-- Kinds of inputs and outputs we're looking for
-- Example: Brand image/ad campaign effectiveness, (duolingo?) https://www.determ.com/blog/5-use-cases-of-real-time-sentiment-analysis-for-brand-building/ https://keyhole.co/blog/duolingo-social-media-strategy/
-- Techniques: Bag of words, challenges in grammar https://en.wikipedia.org/wiki/Sentiment_analysis
-- Exercise: Stump a sentiment analyzer: https://monkeylearn.com/sentiment-analysis-online/
+#align(center + horizon, image("./figures/sentiment-analysis-hero.jpeg", height: 80%))
+
+#pagebreak()
+
+= Sentiment Analysis
+
+Systematically identify, extract, quantify, and study emotional states and subjective information.
+
+#pagebreak()
+
+= Inputs and Outputs
+
+#grid(columns: (1fr, 1fr), [
+Typical inputs:
+- Product reviews
+- Posts, comments
+- Customer complaints
+],[
+Outputs:
+- *Polarity* --- Positive, Negative, or Neutral
+- Specific emotions
+- Subjectivity vs. Objectivity
+])
+
+#pagebreak()
+
+= Inputs and Outputs
+
+#quote(block: true)[
+"I love this phone!"
+]
+
+Polarity: Positive
+
+#quote(block: true)[
+"I love warning people about this phone!"
+]
+
+Polarity: Negative
+
+#pagebreak()
+
+= Example: Duolingo
+
+#align(center+horizon, image("./figures/duo.png", height: 80%))
+
+#pagebreak()
+
+= Duolingo
+
+#columns(2)[
+#align(center + horizon, image("./figures/duo-social.png", width: 100%))
+
+    Like most corporations with a social media strategy, Duolingo uses sentiment analysis to
+assess how effective its social media posts are.
+]
+
+
+#pagebreak()
+
+= Duolingo
+
+- Playful digital presence, aimed at 16-34 year olds
+- Trendjacking
+- Prioritize entertainment (broccoli in pizza)
+- Personificaion of mascot
+- Consistent storylines
+- Direct audience engagement
+
+#pagebreak()
+
+#align(center + horizon, image("./figures/duo-twitter.png"))
+
+
+#pagebreak()
+
+= Bag of Words
+
+`John likes to watch movies.`
+
+#table(columns: (1fr, 1fr, 1fr, 1fr, 1fr), align: center + horizon,
+    [john], [likes], [to], [watch], [movies],
+    [1], [1], [1], [1], [1])
+
+`Out of sight, out of mind.`
+
+#table(columns: (1fr, 1fr, 1fr, 1fr), align: center + horizon,
+    [out], [of], [sight], [mind],
+    [2], [2], [1], [1])
+
+#pagebreak()
+
+= Bag of Concepts
+
+Apply a weight to each word, then sum them.
+
+#table(columns: (1fr, 1fr, 1fr, 1fr, 1fr), align: center,
+    [like], [love], [hate], [return], [...],
+    [0.2], [0.6], [-0.2], [-0.1], [...])
+
+`I like this product` #sym.arrow.r $0 + 0.2 + 0 + 0 = 0.2$
+
+`I love this product` #sym.arrow.r $0 + 0.6 + 0 + 0 = 0.6$
+
+Can you think of problems with this approach?
+
+#pagebreak()
+
+= Challenges
+
+- I do not dislike this.
+- Sometimes I hate shoes, but I like these.
+- This lasted two days, TRULY AMAZING JOB, keep it up!
+- This horror movie was unsettling.
+- You should see their decadent dessert menu.
+- I love this, but would not recommend it to friends.
+- They've got that rizz.
+
+#pagebreak()
+
+= Stump an Analyzer
+
+https://freeaitools.dev/sentiment-analysis
+
 - Can you make something that shows as negative when it is really positive?
-- Can you make something that shows as positive when it is really negeative?
+- Can you make something that shows as positive when it is really negative?
 - What happens if you have mixed emotions?
+- Does it handle slang correctly?
+
+= Affective Computing
+
+Sentiment analysis is one piece of the overall field of Affective Computing.
+
+Read the provided article and we will have an open discussion:
+- What current and potential applications seem useful?
+- What applications have the potential to be problematic?
