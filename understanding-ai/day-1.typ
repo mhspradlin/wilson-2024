@@ -37,9 +37,9 @@ Going around the room:
 
 / Day 1: The Landscape, Decision Trees
 / Day 2: Social Media Algorithms
-/ Day 3: Fraud Detection
-/ Day 4: Chatbots
-/ Day 5: Deepfakes, the AI Control Problem
+/ Day 3: Classifiers
+/ Day 4: Image Synthesis and Chatbots
+/ Day 5: Meta Learning, Superintelligence
 
 #pagebreak()
 
